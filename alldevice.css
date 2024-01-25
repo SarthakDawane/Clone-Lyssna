@@ -9,12 +9,6 @@
         font-size: 3rem;
     }
 
-    /* .announcement {
-        padding: 0.5rem;
-        display: flex;
-        flex-direction: column;
-    } */
-
    .hero-anouncement {
     margin-top: 1rem;
     width: 50%;
@@ -107,6 +101,7 @@
 
     .button {
         font-size: 2rem;
+        padding: 0.5rem 0.8rem;
     }
 
     .nav-right {
