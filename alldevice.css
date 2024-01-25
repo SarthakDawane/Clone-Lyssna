@@ -1,0 +1,209 @@
+@media screen and (max-width : 1030px) {
+    .container {
+        padding: 1rem;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    /* .announcement {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+    } */
+
+   .hero-anouncement {
+    margin-top: 1rem;
+    width: 50%;
+    }
+
+    nav {
+        padding: 1rem;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .howitworks .container {
+        color: #000;
+        padding: 2rem 0;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .howitworks .how-text,
+    .howitworks .how-img {
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .howitworks .how-img {
+        padding: 0;
+        width: 100%;
+    }   
+
+    .marketing .container {
+        padding: 0 2rem;
+        justify-content: space-between;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot-img {
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .container {
+        padding: 1rem 2rem;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+
+@media screen and (max-width : 700px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    h4 {
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    
+    h5 {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .button {
+        font-size: 1rem;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    .nav-logo img {
+        width: 40%;
+    }
+    .announcement {
+        font-size: 0.8rem;
+    }
+
+    .hero-anouncement {
+        width: 100%;
+    }
+
+    .hero-container h1 {
+        width: 60%;
+    }
+
+    .hero-container p {
+        width: 70%;
+    }
+
+    .howitworks .how-header {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .howitworks .how-bottom .box {
+        padding: 0.5rem;
+        border-bottom: 1px solid black;
+    }
+
+    .how-img {
+        display: none;
+    }
+
+    .marketing .container {
+        padding: 1rem 2rem;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .marketing-text {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        width: 90%;
+        color: var(--primary-text-color);
+    }
+
+    .mark {
+        font-size: 1.2rem;
+        padding: 0.6rem;
+        background: #fff;
+        border-radius: 0.4rem;
+        color: var(--anoucement-background);
+        display: inline;
+    }
+
+    .marketing-img {
+        width: 90vw;
+        height: 40vh;
+        overflow: hidden;
+    }
+
+    .marketing-text p {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        width: 90%;
+    }
+
+    .mini-para p  {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .tryfree .container {
+        gap: 0.8rem;
+    }
+
+    .tryfree h1{
+        width: 90%;
+    }
+
+    .tryfree p {
+        width: 90%;
+        text-align: center;
+    }
+
+    .foot-text {
+        flex-direction: column;
+    }
+
+    .footer-ul {
+        align-items: center;
+    }
+}
