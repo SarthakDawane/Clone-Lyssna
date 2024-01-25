@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+:root {
+    --primary-text-color: #fff;
+    --anoucement-background : #0B978E;
+    --background:#006E75;
+    --button-color: #006E77;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+/* utility */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+.hoverlink {
+    font-size: 1.2rem;
+}
+
+.hoverlink:hover {
+    opacity: 0.8;
+}
+
+
+/* Navbar */
+nav {
+    background: var(--background);
+    padding: 2rem 0;
+    color: var(--primary-text-color);
+}
+
+.announcement {
+    margin-left: 15px;
+    padding: 5px 10px;
+    background-color: var(--anoucement-background);
+    color: var(--primary-text-color);
+}
+
+.nav-container {
+    justify-content: space-between;
+}
+
+nav a {
+    color: var(--primary-text-color);
+}
+
+ul {
+    gap: 1.8rem;
+}
+
+ul .fa-solid {
+    color: var(--primary-text-color);
+    font-size: 1.2rem;
+}
+
+/* Hover Effect */
+.button {
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--primary-text-color);
+    border-radius: 0.5rem;
+}
+
+.special-hover-btn,
+.special-hover {
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.special-hover-btn .up
+{
+    transition: 0.1s ease;
+}
+
+.special-hover .up {
+    transition: 0.3s ease;
+}
+
+.special-hover-btn .down
+{
+    position: absolute;
+    transition: 0.1s ease;
+    top: 100%;
+}
+
+.special-hover .down {
+    position: absolute;
+    transition: 0.3s ease;
+    top: 100%;
+}
+
+.special-hover:hover .up,
+.special-hover-btn:hover .up {
+    transform: translateY(-170%);
+}
+
+.special-hover-btn:hover .down {
+    top: 25%;
+}
+
+.special-hover:hover .down {
+    top: 0;
+}
+
+/* Hover Effect End  */
+
+/* Hero section */
+
+header {
+    background: var(--background);
+}
+
+.hero-container {
+    padding: 2rem 0;
+    flex-direction: column;
+    gap: 1.4rem;
+    width: 100%;
+}
+
+.hero-anouncement {
+    width: 35%;
+    padding: 1rem 0;
+    border-radius: 1.5rem;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hero-container h1{
+    width: 40%;
+    color: var(--primary-text-color);
+}
+
+
+.hero-container p {
+    width: 35%;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.hero-container .hero-btn {
+    background-color: var(--primary-text-color);
+}
+
+.hero-container .sub-para {
+    font-size: 1rem;
+}
+
+/* Research section  */
+
+
+/* How it works */
+
+.howitworks .container {
+    color: #000;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+
+.howitworks .how-text,
+.howitworks .how-img {
+    width: 50%;
+}
+
+.howitworks .how-header {
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+
+.howitworks .how-bottom {
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.howitworks .how-bottom .box {
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.howitworks .how-bottom .box h3 {
+    margin-bottom: 0.5rem;
+}
+
+.howitworks h2 {
+    font-weight: 500;
+}
+
+.howitworks .how-img image {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Marketing */
+.marketing {
+    background: var(--background);
+}
+
+.marketing .container {
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+
+.marketing-text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 50%;
+    color: var(--primary-text-color);
+}
+
+.mark {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border-radius: 0.4rem;
+    color: var(--anoucement-background);
+    display: inline;
+}
+
+.marketing-text p {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    width: 90%;
+}
+
+.marketing-img {
+    width: 50vw;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.marketing-img .mark-img {
+    height: 100%;
+    justify-content: center;
+}
+
+.marketing-img .mark-img img  {
+    height: 100%;
+}
+
+.mini-para p  {
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+
+/* try free */
+
+.tryfree {
+    background:#FFFDED;
+}
+
+.tryfree .container {
+    padding: 2rem 0;
+    gap: 1.4rem;
+    flex-direction: column;
+}
+
+.tryfree .try-btn {
+    background-color: var(--background);
+    color: var(--primary-text-color);
+}
+
+.tryfree h1{
+    width: 40%;
+}
+
+
+.tryfree p {
+    width: 50%;
+    text-align: center;
+}
+
+/* footer  */
+
+footer {
+    background: #FFFDED;
+    color: #000;
+}
+
+footer .container {
+    padding: 2rem 0;
+    justify-content: space-between;
+    align-items: start;
+}
+
+footer a {
+    color: #111;
+    font-size: 0.8rem;
+}
+
+footer .footer-ul {
+    align-items: start;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+footer ul h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+}
+
+
+.spacer {
+    height: 70vh;
+    width: 100%;
+background: limegreen;
+}
